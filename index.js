@@ -19,7 +19,7 @@ app.use(cookieParser());
 app.use(
   cors({
     credentials: true,
-    origin: "http://localhost:5173"
+    origin: ["http://localhost:5173","https://65f6b2c1846e7c5c0da421bf--heroic-chebakia-50a6e3.netlify.app/"]
   
   })
 );
