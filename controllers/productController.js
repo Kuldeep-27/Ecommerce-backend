@@ -44,7 +44,7 @@ const latestProduct = async (req,res) => {
     try{
         const last4Products = await Product.find()
         .sort({ _id: -1 }) 
-        .limit(4);
+        .limit(6);
 
         return res.send(success(200,last4Products));
         
